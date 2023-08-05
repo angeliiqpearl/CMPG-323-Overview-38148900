@@ -21,9 +21,9 @@ B --> C[Branches]
 C --> D[main]
 C --> E[develop]
 C --> F[hotfix]
-D --> G[ReadME.md file, Commits, Other relevant files]
-E --> H[ReadME.md file, Commits, Other relevant files]
-F --> I[ReadME.md file, Commits, Other relevant files]
+D --> G[ReadME.md file, Commits, documentation, other files]
+E --> H[.gitignore, Commits, Other relevant files]
+F --> I[.gitignore, Commits, Other relevant files]
 
 ```
 
