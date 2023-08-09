@@ -20,7 +20,7 @@ A[Project] --> B[Repository]
 B --> C[Branches]
 C --> D[main]
 C --> E[develop]
-C --> F[hotfix]
+C --> F[feature]
 D --> G[ReadME.md file, Commits, documentation, other files]
 E --> H[.gitignore, Commits, Other relevant files]
 F --> I[.gitignore, Commits, Other relevant files]
@@ -28,7 +28,6 @@ F --> I[.gitignore, Commits, Other relevant files]
 ```
 
 ### The Branching Strategy to be used for all projects
-The branching strategy to be used with each project includes having three branches. The first one being the main branch, which will help in tracking changes over time, creating pull requests, just to mention a few. The second one being the develop branch, which will entail any new developments or features. The last one being hotfix, which may be used to fix some code in the main branch. 
+The branching strategy to be used with each project includes having three branches. The first one being the main branch, which will help in tracking changes over time, creating pull requests, just to mention a few. The second one being the develop branch, which will entail any new developments. The last one being feature, which may be used to fix some code in the main branch and add new features. 
 
-### Burndown chart for Project 1
-https://github.com/angeliiqpearl/CMPG-323-Overview-38148900/issues/111#issue-1842987330
+### Burndown chart for Project 1 https://github.com/angeliiqpearl/CMPG-323-Overview-38148900/issues/111#issue-1842987330
